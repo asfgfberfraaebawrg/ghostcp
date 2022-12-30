@@ -31,3 +31,7 @@ run install.bat to install the service
 ## How to get the TTL
 tracert 8.8.8.8  
 set the ttl longer than the TTL to the node whose IP address is in your area and shorter than the TTL to the server.
+
+# What's new in this branch
+Adjusted some parameters in the default.conf based on 850710247liu's version(https://github.com/850710247liu/TCPioneer).
+Now you can connect directly to the WSJ website(wsj.com/cn.wsj.com) and Band(band.us) via this tool in Mainland. Of course, you may be able to connect directly to some of the other websites, like Google, Github, etc. But it's impossible to determine whether all the parameters within the default.conf are in effect because of a temporary lack of testing and maintenance.
